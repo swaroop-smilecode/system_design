@@ -1,4 +1,4 @@
-### Relational databases / SQL databases
+### SQL databases / Relational databases
 - Data can be stored in tables according to the restrictions defined by schema of that table.</br>
   Some of the examples for restrictions are `No of columns & Data types`, `Primary key` & `Foreign key`.
 - The language used to queries is `SQL(Structured Query Language)`. Observe the word `Structure`, used because the</br>
