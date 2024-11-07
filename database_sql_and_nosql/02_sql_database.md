@@ -18,6 +18,10 @@ performed by that query else rollback the database to it's original state of bef
 & only after completing the execution of first query, second query will be executed.
 - Observe that `Atomicity` principle is dealing with single query, where as the `Isolation` principle is dealing</br>
 with multiple queries.
+- Doing so will protect from below dangers.
+  1. Dirty reads
+  2. Phantom reads
+  3. Non repeatable reads
 
 #### Consistency</br>
 - This principle says, query will be executed only if it meets predefined constraints setup by triggers.
