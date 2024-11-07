@@ -25,4 +25,4 @@ Even though the database gets request to execute 2 queries at a time, it will ra
 & only after completing the execution of first query, second query will be executed.
 
 #### Durability</br>
-This principle says, Avoid the data loss.
+All the data changes will be saved into disk, on execution of `commit`.
