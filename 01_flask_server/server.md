@@ -1,9 +1,9 @@
-Install the flask package.
+#### Install the flask package.
 ```python
 pip install Flask
 ```
 
-Write code for server.
+#### Write code for server.
 server.py
 ```python
 from flask import Flask
@@ -28,7 +28,7 @@ def home():
 app.run()
 ```
 
-Start the server.
+#### Start the server.
 ```python
 python -m server
 ```
@@ -36,3 +36,10 @@ OR
 ```python
 flask --app server run
 ```
+
+#### Send a request from browser to server
+`http://127.0.0.1:5000`</br>
+You will see the below response.</br>
+rose : 100 </br>
+orchid : 200 </br>
+marigold : 300
