@@ -36,7 +36,11 @@ OR
 ```python
 flask --app server run
 ```
-
+#### Debugging server code 
+Unless you run the server with `--debug` flag, print statments inside the server code won't work.
+```python
+flask --app server --debug run
+```
 #### Send a request from browser to server
 `http://127.0.0.1:5000`</br>
 You will see the below response.</br>
