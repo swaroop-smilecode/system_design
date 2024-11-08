@@ -1,4 +1,4 @@
-Will implement below system step by step by learning theory, followed by implementing it with code. 
+Will implement below system step by step by learning theory, followed by implementing same thing whatever discussed in theory with code. 
 #### 01_flask_server
 On the first chapter, will create a simple flask server. 
 The duty of this server is to provide a response based on the data in a dictionary in flask program.
