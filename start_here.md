@@ -9,5 +9,5 @@ Will add an `sql` database named `SQLite` & store the application data inside th
 
 #### 03_caching_and_nosql
 - As of now, even though same request comes to server, each time it is processed & the response is provided.</br>
-  Instead of this, will store the response inside an `no_sql` database named `TinyDB`.
+  Instead of this, will store the response inside an `no_sql` database named `DynamoDB` in AWS cloud.
 - Will also pratically verify wether we are getting data from database/cahce.
